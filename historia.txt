@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+		Comandos GIT utilizados en en la practica
+-------------------------------------------------------------------------------
+
+1. Comenzamos clonando el repositorio: git clone
+2. Una vez situados en el repositorio lo inicializamos: git init
+3. Añado todo el directorio a la staggin area: git add .
+4. Confirmo los cambios realizados en el repositorio localy así lo actualizo: git commit -m "Actualizar repositorio local con cambios realizados"
+5.
