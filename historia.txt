@@ -32,3 +32,9 @@
 16. Volvemos a actualizar el repositorio tras realizar los cambios que necesitabamos:
     git add . , git commit -m "TERCERA ACTUALIZACION (V3 del documento)"
 17. Ahora marcamos con la etiqueta R3: git tag -a R3 -m "VERSION R3" 
+18. Hacemos el push de la rama principal git push origin main
+19. Hacemos el push de las etiquetas: git push --tags
+20. Hacemos git pull origin main para actualizar el repositorio
+21. Finalmente tras añadir esta utlima linea comprobamos con git diff las diferencias entre este y el actual
+22. Subimos todos los cambios al repositorio remoto con git add . seguido de git commit
+    -m "Commit final de esta practica" y finalmente git push origin main
