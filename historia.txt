@@ -15,4 +15,13 @@
    git commit -m "Actualizar repositorio local con cambios realizados"
 5. Para crear una etiqueta anotada con un mensaje descriptivo, utilizo: 
    git tag -a R1 -m "Versión R1: Estado inicial del repositorio"
-
+6. No habia añadido las plantillas en blanco, por tanto, tras añadirlas
+   he realizado un git add . y un git commit -m "Actualizar repositorio local ya que no se habian añadido las 
+   platillas vacias iniciales"
+7. He creado la etiqueta R1.1 para especificar que seguiré desde este punto: 
+   git tag -a R1.1 -m "Actualización del repositorio local, no se habian añadido las plantillas"
+8. Creo la rama denominada mejoras: git branch Mejoras, posteriormente me cambio a ella con git switch Mejoras
+9. Mezclo la rama master con la rama "Mejoras": git merge Mejoras
+10. Elimino la rama Mejoras: git branch -d Mejoras
+11. Actualizo el repositorio: git add ., git commit -m "Segunda Actualizacion (V2 del documento)
+12. Creo la segunda etiqueta: git tag -a R2 -m "VERSION R2"
