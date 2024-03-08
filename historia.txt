@@ -2,8 +2,17 @@
 		Comandos GIT utilizados en en la practica
 -------------------------------------------------------------------------------
 
+/***Aclaraciones: 1. Estos numeros no van acordes con los del enunciado que aparece en la practica, son los pasos 
+		     que seguí para poder completarla.
+		  2. El documento de control de cambios aparece como v1 pero, realmente las versiones son las que 
+		     se almacenan en git.
+***/
+
 1. Comenzamos clonando el repositorio: git clone
 2. Una vez situados en el repositorio lo inicializamos: git init
 3. Añado todo el directorio a la staggin area: git add .
-4. Confirmo los cambios realizados en el repositorio localy así lo actualizo: git commit -m "Actualizar repositorio local con cambios realizados"
-5.
+4. Confirmo los cambios realizados en el repositorio localy así lo actualizo:
+   git commit -m "Actualizar repositorio local con cambios realizados"
+5. Para crear una etiqueta anotada con un mensaje descriptivo, utilizo: 
+   git tag -a R1 -m "Versión R1: Estado inicial del repositorio"
+
