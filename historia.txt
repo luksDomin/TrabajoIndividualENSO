@@ -25,3 +25,10 @@
 10. Elimino la rama Mejoras: git branch -d Mejoras
 11. Actualizo el repositorio: git add ., git commit -m "Segunda Actualizacion (V2 del documento)
 12. Creo la segunda etiqueta: git tag -a R2 -m "VERSION R2"
+13. Actualizamos el repositorio con la V3: git add ., git commit -m "Tercera Actualizacion 
+   (V3 del documento)
+14. Accedo al los hashes de los commit con git log --oneline
+15. Reseteo la rama a la version anterior con git reset f1282c3 (hash del tag R2)
+16. Volvemos a actualizar el repositorio tras realizar los cambios que necesitabamos:
+    git add . , git commit -m "TERCERA ACTUALIZACION (V3 del documento)"
+17. Ahora marcamos con la etiqueta R3: git tag -a R3 -m "VERSION R3" 
